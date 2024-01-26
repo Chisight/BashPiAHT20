@@ -11,10 +11,10 @@ The init function will be called automatically.
 `aht20_readH` <br>
 
 ## Read Temperature:
-`aht20_readH` <br>
+`aht20_readT` <br>
 
 ## Read Temperature and convert to Fahrenheit:
-`aht20_readH F` <br>
+`aht20_readT F` <br>
 
 ## When done, close the port with:
 `aht20_close` <br>
