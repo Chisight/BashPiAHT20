@@ -22,7 +22,8 @@ The init function will be called automatically.
 # Known issues:
 apt install pigpio-tools may not activate the daemon.
 To enable the daemon at startup use:
-```systemctl enable pigpiod
+```
+systemctl enable pigpiod
 start pigpiod
 ```
 The status check is rather naive and only checks the calibration needed bit once each read.
