@@ -2,6 +2,7 @@
 
 # Requirements:
 pigpio-tools
+bc
 
 # To use:
 Source the script with:
@@ -20,7 +21,7 @@ The init function will be called automatically.
 `aht20_close` <br>
 
 # Known issues:
-apt install pigpio-tools may not activate the daemon.
+apt install pigpio-tools may not activate the daemon.  This results in the message: socket connect failed.
 To enable the daemon at startup use:
 ```
 systemctl enable pigpiod
